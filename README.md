@@ -1,0 +1,1 @@
+This basic script logs Animal Crossing Wild World in-game turnip prices as an input and saves the prices in a CSV file. This dataset will be used for data analysis purposes to determine trends in the digital market and will be updated on a weekly basis.
