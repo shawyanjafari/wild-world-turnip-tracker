@@ -14,7 +14,7 @@ if today == 6:
         buying_price = int(input('Please enter buying price of turnips: '))
         f.write(f'{datetime.date.today()},{buying_price}\n')
 else:
-    with open('turnip_prices.csv', 'a+') as f:
+    with open('turnip_selling_prices.csv', 'a+') as f:
         if today == 6:  # turnips can't be sold on Sundays
             print('Turnips can only be *purchased* on Sundays.')
             f.write(f'{datetime.date.today()},{np.nan},{np.nan}\n')
